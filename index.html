@@ -1,0 +1,167 @@
+  <!DOCTYPE html>
+  <html  >
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  />
+         <link type="text/css" rel="stylesheet" href="css/style.css" />
+          <link type="text/css" rel="stylesheet" href="css/font-awesome.css"  media="screen,projection"/>
+          <link rel="stylesheet" href="css/animate.css">
+            <link rel="stylesheet" href="css/aos.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <script>
+           $(document).ready(function(){
+        $("html").niceScroll();
+    });
+          </script>
+    </head>
+
+         <div id='container1'></div>
+    <body ng-app="MyApp" ng-controller="MyCtrl">
+
+           <!-- Header and Nav -->
+           <nav class='navbar navbar-custom'>
+            
+               
+                 <div class='navbar-header'>
+                     <a href="#" class='navbar brand'><h2><span class='fa fa-home'></span>AnyWork.com</h2></a>
+                 </div>
+                 <ul class='navbar nav'>
+                     <li ><a href="#" class='yellow-text text-darken-3'>Login </a></li>
+                     <li><a href='#' class='yellow-text text-darken-3'>Sign up</a></li>
+                 </ul>
+                  </nav>
+                <div class='container' >
+                     <!-- Main1 left-side -->
+                    <div class='col x8 s8 m10 l10 ' id="main1">
+                      <div id="header"> <h2 class='wow fadeInDown'>Any<span id="work" >Work</span></h2></div>
+                    </div>
+                
+                    <div class='row' >
+                     
+                         <!-- Main2 left-side -->
+                        <div class='col-xs-8 col-sm-8 col-md-5 col-lg-5' id="main2" >
+                              <hr> 
+                           <h3 class='wow  fadeInDown'>{{MyHeader3}}</h3>
+                           
+                           <h4 class="aos-item" data-aos="fade-left">{{MyHeader}}</h4>
+                            <h4 class='wow  slideInLeft'>{{MyHeader1}}</h4>
+                             <h4 class='wow  fadeInDown'>{{MyHeader2}}</h4>
+                            
+                                     <a href="#"  class='btn waves-effect waves-green yellow darken-3 wow pulse'
+                                      data-wow-iteration="infinite" data-wow-duration="1500ms">SEARCH NOW</a>
+                             </div>
+                                        <!-- Main3 right-side/Form -->
+
+                                        
+                             <div class='col-xs-8 col-sm-8 col-md-6 col-lg-6' id="main3">
+                                 <div id='shape1' class='yellow darken-3'></div>
+                                 <div id='shape2'>
+                                     <h4 class='wow fadeInLeft'>Showcase Yourself</h4><hr>
+                                     <h5 class='wow  fadeInDown'>Do you offer a service?</h5>
+                                     <h5 class='wow  fadeInDown'>Are you an entrepreneur?</h5>
+                                    <hr>
+                                    <form class='col s12 m12 l12'>
+                                          <h4>User Login</h2>
+                                            <hr>
+                                        <div class='input-field col s10 m6 l6'>
+                                           
+                                            
+                                            <input placeholder='Username' type='text'  id='user_name' class='validate'>
+                                            <label for="user_name"><span class='fa fa-user'></span></label>
+                                            </div>
+                                             <div class='input-field col s10 m6 l6'>
+                                            <input placeholder='Password' type='password'  id='password_name' class='validate'>
+                                            <label for="password_name"><span class='fa fa-key'></span></label>
+                                            </div>
+                                                    <button class='btn waves-effect waves-green yellow darken-3'><p>Login</p></button>
+                                        </form>
+                                        
+                                        <form  class='col s12 m12 l12' id="signup">
+                                            <hr>
+                                              <h4>Sign up</h2>
+                                            <hr>
+                                               <div class='input-field col s10 m6 l6'>
+                                             <input  placeholder='Enter your Name'type='text'  id='name' class='validate'>
+                                            <label for="name"><span class='fa fa-user'></span></label>
+                                            </div>
+                                               <div class='input-field col s10 m6 l6'>
+                                            <input placeholder='Email Address' type='email'  id='email' class='validate'>
+                                            <label for="email"><span class='fa fa-envelope'></span></label>
+                                            </div>
+                                            <div class='input-field col s10 m6 l6'>
+                                               <input placeholder='Enter your username' type='text'  id='user_name' class='validate'>
+                                            <label for="user_name"><span class='fa fa-user'></span></label>
+                                            </div>
+                                             <div class='input-field col s10 m6 l6'>
+                                            <input placeholder='Enter Password' type='password'  id='password_name' class='validate'>
+                                            <label for="password_name"><span class='fa fa-key'></span></label>
+                                            </div>
+                                             <button class='btn btn-waves waves-green yellow darken-3 wow pulse'
+                                      data-wow-iteration="infinite" data-wow-duration="1500ms">
+                                             <p>Register</p></button>
+                                            </form>
+                                     </div>
+                                    <div class='clearfix'></div>
+                                 </div>
+                        </div>
+                              </div>
+
+<!-- Footer -->
+
+   <footer>
+     <div class='col-xs12 col-sm12 col-md-12 col-lg-12'>
+  <div class='footer-copyright'>
+    <div class="container">
+  Copyright&copy 2017 AnyWork
+   </div>
+    </div>
+    </div>
+    </footer>
+ </body>
+
+
+                          <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="js/jquery.js"></script>
+       <script src="js/jquery.nicescroll.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/angular.min.js"></script>
+      <script type="text/javascript" src="js/wow.min.js"></script>
+       <script type="text/javascript" src="js/controller.js"></script>
+        <script type="text/javascript" src="js/aos.js"></script>
+          
+          
+      <script>
+       AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+
+     var wow= new WOW(
+        {
+          boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    }
+    );
+
+    wow.init();
+
+
+    </script>
+  </html>
+
+

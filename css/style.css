@@ -1,0 +1,377 @@
+ .clearfix{
+     clear:both;
+ }
+#container1{
+     position:absolute;
+       top:0px;
+    left:0px;
+    right:0px;
+    left:0px;
+    
+      background:url(../images/bg2.png);
+    height:900px;
+    opacity:1;
+}
+body{
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    left:0px;
+    background:url(../images/bg3.jpg);
+    height:900px;
+    opacity:0.8;
+}
+.navbar-header h2:hover{
+    color:green;
+    text-decoration: none;
+    text-transform: none;
+}
+nav{
+    background:transparent;
+    background-color:none;
+}
+nav h2{
+    font-size:18px;
+}
+.nav {
+    margin-right:6%;
+}
+#main1 #header {
+     position:absolute;
+    left:19.3%;
+    top:30px;
+    color:white;
+}
+
+#main1 #header h2{
+    
+    
+    font-size:50px;
+    letter-spacing:2px;
+    
+}
+
+#main1 #header h2 #work{
+    
+      font-size:35px;
+      font-weight:500;
+}
+#main2{
+   
+    margin-left:6%;
+    margin-top:250px;
+}
+#main2 h3,
+#main2 h4{
+    color:white;
+     font-family: 'Nova Flat';
+}
+#main2 h3{
+ font-size:30px;
+ margin-bottom:5%;
+  
+}
+
+#main2 h4{
+     font-size:18px;
+     padding-top:2%;
+     
+}
+#main2 .btn{
+    margin-left:10%;
+    margin-top:5%;
+    color:black;
+    font-weight:600;
+    
+}
+#main3 #shape1{
+margin-left:29%;
+margin-top:110px;
+
+width:358px;
+height:250px;
+
+}
+#main3 #shape2{
+margin-left:35%;
+margin-top:-218px;
+
+width:394px;
+height:640px;
+background-size:100%;
+
+background-color:white;
+}
+#main3 #shape2 h4{
+    font-size:20px;
+     font-family: 'Nova Flat';
+    letter-spacing:2px;
+    text-align: center;
+    padding-top:4%;
+
+}
+#main3 #shape2 h5{
+    font-size:18px;
+    text-align:center;
+     font-family: 'Nova Flat';
+    padding-top:1%;
+    font-size:15px;
+
+}
+#main3 #shape2 form{
+    margin-top:0px;
+    padding-top:0px;
+}
+#main3 #shape2 form h4{
+    font-size: 16px;
+}
+#main3 #shape2 form label{
+    font-size:14px;
+}
+#main3 #shape2 form input{
+    margin-left:15%;
+}
+#main3 #shape2 form .btn{
+    font-size:12px;
+    margin-left:40%;
+}
+ footer{
+     margin-left:40%;
+     color:white;
+ }
+
+@media only screen and (max-width:480px){
+ .nav {
+    margin-right:2%;
+}
+
+#main1 #header {
+     position:absolute;
+    left:19.3%;
+    top:10px;
+    color:white;
+}
+
+#main2{
+   
+    margin-left:6%;
+    margin-top:80px;
+}
+   #main3 #shape1{
+margin-left:0px;
+margin-top:40px;
+
+width:250px;
+height:250px;
+
+}
+#main3 #shape2{
+margin-left:15px;
+margin-top:-218px;
+
+width:274px;
+height:400px;
+background-size:100%;
+
+background-color:white;
+} 
+#main3 #shape2 h4{
+    font-size:20px;
+     font-family: 'Nova Flat';
+    letter-spacing:2px;
+    text-align: center;
+    padding-top:4%;
+
+}
+#main3 #shape2 h5{
+    font-size:18px;
+    text-align:center;
+     font-family: 'Nova Flat';
+    padding-top:1%;
+    font-size:15px;
+
+}
+#main3 #shape2 form{
+    margin-top:0px;
+    padding-top:0px;
+}
+#main3 #shape2 form h4{
+    font-size: 16px;
+}
+#main3 #shape2 form label{
+    font-size:14px;
+}
+#main3 #shape2 form input{
+    margin-left:15%;
+}
+#main3 #shape2 form .btn{
+    font-size:12px;
+    margin-left:40%;
+}
+#signup{
+    display:none;
+}
+
+}
+
+@media only screen and (max-width:768px) and (min-width:481px){
+
+
+#main3 #shape1{
+margin-left:6%;
+margin-top:110px;
+
+width:300px;
+height:250px;
+
+}
+#main3 #shape2{
+margin-left:10%;
+margin-top:-218px;
+
+width:340px;
+height:640px;
+background-size:100%;
+
+background-color:white;
+}
+#container1{
+     position:absolute;
+       top:0px;
+    left:0px;
+    right:0px;
+    left:0px;
+    
+      background:url(../images/bg6.png);
+    height:1024px;
+    opacity:1;
+}
+body{
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    left:0px;
+    background:none;
+    height:1024px;
+    opacity:1;
+}
+footer{
+    margin-top:15%;
+}
+}
+
+@media only screen and (max-width:1024px) and (min-width:769px){
+  #main3 #shape1{
+margin-left:6%;
+margin-top:110px;
+
+width:300px;
+height:250px;
+
+}
+
+#main3 #shape2{
+margin-left:10%;
+margin-top:-218px;
+
+width:340px;
+height:640px;
+background-size:100%;
+
+background-color:white;
+}
+#container1{
+     position:absolute;
+       top:0px;
+    left:0px;
+    right:0px;
+    left:0px;
+    
+      background:url(../images/bg7.png);
+    height:1366px;
+    opacity:1;
+}
+body{
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    left:0px;
+    background:none;
+    height:1366px;
+    opacity:1;
+}
+
+#main1 #header {
+     position:absolute;
+    left:19.3%;
+    top:200px;
+    color:white;
+}
+
+#main1 #header h2{
+    
+    
+    font-size:50px;
+    letter-spacing:2px;
+    
+}
+
+#main1 #header h2 #work{
+    
+      font-size:35px;
+      font-weight:500;
+}
+#main2{
+   
+    margin-left:6%;
+    margin-top:500px;
+}
+#main2 h3,
+#main2 h4{
+    color:white;
+     font-family: 'Nova Flat';
+}
+#main2 h3{
+ font-size:30px;
+ margin-bottom:5%;
+  
+}
+
+#main2 h4{
+     font-size:18px;
+     padding-top:2%;
+     
+}
+#main2 .btn{
+    margin-left:10%;
+    margin-top:5%;
+    color:black;
+    font-weight:600;
+    
+}
+#main3 #shape1{
+margin-left:25%;
+margin-top:300px;
+
+width:300px;
+height:250px;
+
+}
+#main3 #shape2{
+margin-left:30%;
+margin-top:-218px;
+
+width:354px;
+height:640px;
+background-size:100%;
+
+background-color:white;
+}
+footer{
+    margin-top:25%;
+}
+
+}
